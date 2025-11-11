@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Ana Morales - Estudiante de Ingeniería en Computación y desarrolladora junior especializada en desarrollo web e inteligencia artificial">
+    <meta name="keywords" content="desarrollo web, inteligencia artificial, JavaScript, Python, React, portafolio">
+    <meta name="author" content="Ana Morales">
+    <title>Ana Morales | Desarrolladora Junior</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header con navegación -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>Ana Morales</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+                    <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                    <li><a href="#experiencia" class="nav-link">Experiencia</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-btn" aria-label="Cambiar tema">
+                    Modo claro
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Hero -->
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <h1 class="hero-title">Hola, soy Ana Morales</h1>
+                <h2 class="hero-subtitle">Estudiante de Ingeniería en Computación y desarrolladora junior</h2>
+                <p class="hero-description">
+                    Me apasiona transformar ideas en soluciones digitales. Combino mi amor por el desarrollo web 
+                    con mi curiosidad por la inteligencia artificial para crear experiencias que marquen la diferencia. 
+                    Cada línea de código es una oportunidad para aprender algo nuevo.
+                </p>
+                <a href="#proyectos" class="btn-primary">Ver mis proyectos</a>
+                <p class="hero-location">
+                    📍 Mérida, Yucatán, México · Buscando oportunidades de prácticas profesionales y proyectos freelance
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección Sobre mí -->
+        <section class="section" id="sobre-mi">
+            <div class="container">
+                <h2 class="section-title">Sobre mí</h2>
+                <div class="about-content">
+                    <p>
+                        Soy Ana Morales, estudiante de Ingeniería en Computación apasionada por el desarrollo web 
+                        y la inteligencia artificial. Mi camino en la tecnología comenzó con la curiosidad de 
+                        entender cómo funcionan las aplicaciones que usamos diariamente, y desde entonces no he 
+                        parado de aprender y construir.
+                    </p>
+                    <p>
+                        Me gusta aprender haciendo: cada proyecto es una nueva aventura donde pongo a prueba mis 
+                        habilidades y descubro nuevas tecnologías. Además, disfruto participar en comunidades 
+                        tecnológicas donde puedo compartir lo que aprendo y colaborar con otras personas que 
+                        comparten mi pasión por la tecnología.
+                    </p>
+                    <div class="interests">
+                        <h3>Mis intereses principales:</h3>
+                        <ul class="interests-list">
+                            <li>🌐 Desarrollo web moderno y responsive</li>
+                            <li>🤖 Inteligencia artificial aplicada</li>
+                            <li>📊 Visualización de datos</li>
+                            <li>👥 Comunidades tecnológicas y open source</li>
+                            <li>📚 Aprendizaje continuo y nuevas tecnologías</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Habilidades -->
+        <section class="section section-alt" id="habilidades">
+            <div class="container">
+                <h2 class="section-title">Habilidades</h2>
+                <div class="skills-container">
+                    <!-- Lenguajes de programación -->
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Lenguajes de Programación</h3>
+                        <div class="skills-grid">
+                            <span class="skill-badge">Python</span>
+                            <span class="skill-badge">JavaScript</span>
+                            <span class="skill-badge">TypeScript</span>
+                            <span class="skill-badge">HTML5</span>
+                            <span class="skill-badge">CSS3</span>
+                        </div>
+                    </div>
+
+                    <!-- Frontend -->
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Frontend</h3>
+                        <div class="skills-grid">
+                            <span class="skill-badge">React</span>
+                            <span class="skill-badge">Responsive Design</span>
+                            <span class="skill-badge">Flexbox & Grid</span>
+                            <span class="skill-badge">CSS Animations</span>
+                            <span class="skill-badge">DOM Manipulation</span>
+                        </div>
+                    </div>
+
+                    <!-- Backend -->
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Backend</h3>
+                        <div class="skills-grid">
+                            <span class="skill-badge">Node.js</span>
+                            <span class="skill-badge">APIs REST</span>
+                            <span class="skill-badge">Fetch API</span>
+                            <span class="skill-badge">JSON</span>
+                        </div>
+                    </div>
+
+                    <!-- Datos e IA -->
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Datos e IA</h3>
+                        <div class="skills-grid">
+                            <span class="skill-badge">Python para Data Science</span>
+                            <span class="skill-badge">Modelos de IA básicos</span>
+                            <span class="skill-badge">Análisis de datos</span>
+                            <span class="skill-badge">Visualización</span>
+                        </div>
+                    </div>
+
+                    <!-- Herramientas -->
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Herramientas</h3>
+                        <div class="skills-grid">
+                            <span class="skill-badge">Git</span>
+                            <span class="skill-badge">GitHub</span>
+                            <span class="skill-badge">VS Code</span>
+                            <span class="skill-badge">Terminal</span>
+                            <span class="skill-badge">DevTools</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Proyectos -->
+        <section class="section" id="proyectos">
+            <div class="container">
+                <h2 class="section-title">Proyectos</h2>
+                <p class="section-description">
+                    Una selección de proyectos que demuestran mi evolución como desarrolladora. 
+                    Cada uno representa un desafío superado y nuevas habilidades adquiridas.
+                </p>
+                <div class="projects-grid">
+                    <!-- Proyecto 1: Dashboard de Clima -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Dashboard de Clima con APIs</h3>
+                        </div>
+                        <p class="project-description">
+                            Aplicación web interactiva que consume una API de clima y muestra un dashboard 
+                            con tarjetas informativas y gráficos simples. Los usuarios pueden buscar el clima 
+                            de cualquier ciudad y ver pronósticos detallados con una interfaz intuitiva.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Fetch API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://ejemplo.com/dashboard-clima" class="btn-secondary" target="_blank" rel="noopener noreferrer">
+                                Ver demo
+                            </a>
+                            <a href="https://github.com/anamorales/dashboard-clima" class="btn-outline" target="_blank" rel="noopener noreferrer">
+                                Ver en GitHub
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Proyecto 2: Explorador de Películas -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Explorador de Películas</h3>
+                        </div>
+                        <p class="project-description">
+                            Aplicación web que permite buscar películas y ver detalles completos como sinopsis, 
+                            calificaciones, reparto y más, utilizando una API pública. Incluye funcionalidad 
+                            de búsqueda en tiempo real y diseño responsive.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">API Externa</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://ejemplo.com/explorador-peliculas" class="btn-secondary" target="_blank" rel="noopener noreferrer">
+                                Ver demo
+                            </a>
+                            <a href="https://github.com/anamorales/explorador-peliculas" class="btn-outline" target="_blank" rel="noopener noreferrer">
+                                Ver en GitHub
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Proyecto 3: Notas Interactivas de IA -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Notas Interactivas de IA</h3>
+                        </div>
+                        <p class="project-description">
+                            Sitio web educativo donde publico notas cortas sobre inteligencia artificial, 
+                            incluyendo ejemplos prácticos en Python y visualizaciones básicas. Un espacio 
+                            para compartir aprendizajes y explorar conceptos de IA de manera accesible.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://ejemplo.com/ia-notes" class="btn-secondary" target="_blank" rel="noopener noreferrer">
+                                Ver demo
+                            </a>
+                            <a href="https://github.com/anamorales/ia-notes" class="btn-outline" target="_blank" rel="noopener noreferrer">
+                                Ver en GitHub
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Experiencia y logros -->
+        <section class="section section-alt" id="experiencia">
+            <div class="container">
+                <h2 class="section-title">Experiencia y logros</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Participación en Hackathon Regional TechNova 2024</h3>
+                            <span class="timeline-date">Octubre 2024</span>
+                            <p>
+                                Formé parte de un equipo de 4 personas donde desarrollamos una aplicación web 
+                                para conectar estudiantes con mentores de tecnología. Aprendí a trabajar bajo 
+                                presión, coordinar con un equipo y presentar ideas de forma efectiva. 
+                                Obtuvimos el segundo lugar en la categoría de impacto social.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Bootcamp Intensivo de Desarrollo Web Full Stack</h3>
+                            <span class="timeline-date">Julio - Agosto 2024</span>
+                            <p>
+                                Completé un bootcamp de 8 semanas donde profundicé en desarrollo frontend y backend, 
+                                trabajé en proyectos colaborativos usando Git y GitHub, y aprendí metodologías ágiles. 
+                                Desarrollamos una aplicación completa de gestión de tareas con autenticación de usuarios.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Colaboración en Comunidad DevMérida</h3>
+                            <span class="timeline-date">2023 - Presente</span>
+                            <p>
+                                Participación activa en meetups y talleres de la comunidad de desarrolladores local. 
+                                He impartido una charla introductoria sobre "Primeros pasos con APIs REST" y 
+                                colaboro regularmente en eventos de networking y código colaborativo.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Proyecto Académico: Sistema de Visualización de Datos</h3>
+                            <span class="timeline-date">Marzo - Mayo 2024</span>
+                            <p>
+                                Como parte de un curso universitario, desarrollé un sistema web que visualiza 
+                                datos de encuestas estudiantiles mediante gráficos interactivos. Implementé 
+                                procesamiento de datos con Python y una interfaz web dinámica con JavaScript. 
+                                Obtuve la calificación más alta del grupo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section class="section" id="contacto">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <div class="contact-content">
+                    <p class="contact-intro">
+                        ¿Tienes una oportunidad de prácticas profesionales, un proyecto interesante 
+                        o simplemente quieres colaborar? Me encantaría conocer más y ver cómo podemos 
+                        trabajar juntos. No dudes en contactarme por cualquiera de estos medios.
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:ana.morales.dev@example.com" class="contact-card">
+                            <div class="contact-icon">📧</div>
+                            <h3>Email</h3>
+                            <p>ana.morales.dev@example.com</p>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/anamorales-dev" class="contact-card" target="_blank" rel="noopener noreferrer">
+                            <div class="contact-icon">💼</div>
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/anamorales-dev</p>
+                        </a>
+
+                        <a href="https://github.com/anamorales-dev" class="contact-card" target="_blank" rel="noopener noreferrer">
+                            <div class="contact-icon">💻</div>
+                            <h3>GitHub</h3>
+                            <p>github.com/anamorales-dev</p>
+                        </a>
+                    </div>
+
+                    <div class="contact-cta">
+                        <p>Estoy disponible para:</p>
+                        <ul class="availability-list">
+                            <li>✓ Prácticas profesionales</li>
+                            <li>✓ Proyectos freelance</li>
+                            <li>✓ Colaboraciones en proyectos open source</li>
+                            <li>✓ Charlas y talleres en comunidades tech</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                © <span id="year"></span> Ana Morales · Portafolio creado con ayuda de GitHub Copilot y ChatGPT
+            </p>
+            <p class="footer-subtext">
+                Desarrollado con ❤️ en Mérida, Yucatán
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
