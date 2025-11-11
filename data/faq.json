@@ -1,0 +1,52 @@
+[
+  {
+    "question": "¿Qué tecnologías dominas?",
+    "keywords": ["tecnologias", "lenguajes", "habilidades", "conocimientos", "programacion", "stack"],
+    "answer": "Domino HTML5, CSS3, JavaScript y Python. También tengo experiencia con React, Node.js, APIs REST y herramientas como Git y GitHub. Estoy aprendiendo constantemente sobre inteligencia artificial y ciencia de datos."
+  },
+  {
+    "question": "¿En qué tipo de proyectos te gustaría colaborar?",
+    "keywords": ["proyectos", "colaborar", "trabajar", "equipo", "participar", "contribuir"],
+    "answer": "Me interesan proyectos de desarrollo web moderno, aplicaciones con IA, visualización de datos y herramientas educativas. También me apasiona contribuir a proyectos de código abierto que tengan un impacto social positivo."
+  },
+  {
+    "question": "¿Tienes experiencia trabajando en equipo?",
+    "keywords": ["equipo", "colaboracion", "experiencia", "grupo", "trabajo", "colaborativo"],
+    "answer": "Sí, he participado en varios proyectos colaborativos incluyendo hackathons, bootcamps y comunidades tecnológicas. Tengo experiencia usando metodologías ágiles, Git para control de versiones y herramientas de comunicación como Slack y Discord."
+  },
+  {
+    "question": "¿Cómo puedo contactarte?",
+    "keywords": ["contacto", "email", "correo", "escribir", "comunicar", "linkedin"],
+    "answer": "Puedes contactarme por email a ana.morales.dev@example.com, por LinkedIn en linkedin.com/in/anamorales-dev o visitar mi GitHub en github.com/anamorales-dev. ¡Estaré encantada de conversar sobre oportunidades y proyectos!"
+  },
+  {
+    "question": "¿Estás disponible para prácticas profesionales?",
+    "keywords": ["practicas", "internship", "disponible", "pasantia", "trabajo", "empleo"],
+    "answer": "Sí, estoy buscando activamente oportunidades de prácticas profesionales en desarrollo web, inteligencia artificial o ciencia de datos. Prefiero posiciones donde pueda aprender de equipos experimentados y contribuir con proyectos reales."
+  },
+  {
+    "question": "¿Qué estás aprendiendo actualmente?",
+    "keywords": ["aprendiendo", "estudiando", "cursando", "aprender", "formacion"],
+    "answer": "Actualmente estoy profundizando en React y TypeScript para desarrollo frontend, explorando frameworks de machine learning como TensorFlow, y mejorando mis habilidades en algoritmos y estructuras de datos."
+  },
+  {
+    "question": "¿Dónde estudiaste o estás estudiando?",
+    "keywords": ["universidad", "estudios", "carrera", "ingenieria", "educacion", "titulo"],
+    "answer": "Soy estudiante de Ingeniería en Computación. Complemento mi formación académica con cursos en línea, bootcamps y participación activa en comunidades de desarrolladores."
+  },
+  {
+    "question": "¿Puedes trabajar de forma remota?",
+    "keywords": ["remoto", "distancia", "online", "casa", "virtual", "remote"],
+    "answer": "Sí, tengo experiencia trabajando de forma remota en proyectos colaborativos. Cuento con un espacio de trabajo adecuado, buena conexión a internet y manejo herramientas de colaboración como GitHub, Slack, Zoom y Trello."
+  },
+  {
+    "question": "¿Cuáles son tus proyectos favoritos?",
+    "keywords": ["proyectos", "favoritos", "destacados", "mejores", "importantes"],
+    "answer": "Mis proyectos favoritos son el Dashboard del Clima, donde aprendí a trabajar con APIs externas, y el Visualizador de Datos COVID-19, que combina mis intereses en desarrollo web y análisis de datos. Puedes verlos en la sección de proyectos."
+  },
+  {
+    "question": "¿Hablas inglés?",
+    "keywords": ["ingles", "idioma", "english", "idiomas", "bilingue"],
+    "answer": "Sí, tengo un nivel intermedio-avanzado de inglés que me permite leer documentación técnica, participar en comunidades internacionales y comunicarme efectivamente en entornos profesionales."
+  }
+]

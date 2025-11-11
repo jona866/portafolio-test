@@ -3,10 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portafolio de Ana Morales - Estudiante de Ingeniería en Computación y desarrolladora junior especializada en desarrollo web e inteligencia artificial">
-    <meta name="keywords" content="desarrollo web, inteligencia artificial, JavaScript, Python, React, portafolio">
+    
+    <!-- SEO Básico -->
+    <meta name="description" content="Portafolio de Ana Morales - Estudiante de Ingeniería en Computación y desarrolladora junior especializada en desarrollo web e inteligencia artificial. Descubre mis proyectos y habilidades.">
+    <meta name="keywords" content="desarrollo web, inteligencia artificial, JavaScript, Python, React, portafolio, desarrolladora junior, frontend, backend">
     <meta name="author" content="Ana Morales">
-    <title>Ana Morales | Desarrolladora Junior</title>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ana Morales | Desarrolladora Junior - Portafolio">
+    <meta property="og:description" content="Portafolio profesional de Ana Morales. Explora mis proyectos de desarrollo web, IA y ciencia de datos.">
+    <meta property="og:url" content="https://tu-dominio.com">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ana Morales | Desarrolladora Junior">
+    <meta name="twitter:description" content="Portafolio profesional mostrando proyectos de desarrollo web e inteligencia artificial">
+    
+    <title>Ana Morales | Desarrolladora Junior - Portafolio Inteligente</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -154,84 +168,8 @@
                     Una selección de proyectos que demuestran mi evolución como desarrolladora. 
                     Cada uno representa un desafío superado y nuevas habilidades adquiridas.
                 </p>
-                <div class="projects-grid">
-                    <!-- Proyecto 1: Dashboard de Clima -->
-                    <article class="project-card">
-                        <div class="project-header">
-                            <h3 class="project-title">Dashboard de Clima con APIs</h3>
-                        </div>
-                        <p class="project-description">
-                            Aplicación web interactiva que consume una API de clima y muestra un dashboard 
-                            con tarjetas informativas y gráficos simples. Los usuarios pueden buscar el clima 
-                            de cualquier ciudad y ver pronósticos detallados con una interfaz intuitiva.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">Fetch API</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://ejemplo.com/dashboard-clima" class="btn-secondary" target="_blank" rel="noopener noreferrer">
-                                Ver demo
-                            </a>
-                            <a href="https://github.com/anamorales/dashboard-clima" class="btn-outline" target="_blank" rel="noopener noreferrer">
-                                Ver en GitHub
-                            </a>
-                        </div>
-                    </article>
-
-                    <!-- Proyecto 2: Explorador de Películas -->
-                    <article class="project-card">
-                        <div class="project-header">
-                            <h3 class="project-title">Explorador de Películas</h3>
-                        </div>
-                        <p class="project-description">
-                            Aplicación web que permite buscar películas y ver detalles completos como sinopsis, 
-                            calificaciones, reparto y más, utilizando una API pública. Incluye funcionalidad 
-                            de búsqueda en tiempo real y diseño responsive.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">API Externa</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://ejemplo.com/explorador-peliculas" class="btn-secondary" target="_blank" rel="noopener noreferrer">
-                                Ver demo
-                            </a>
-                            <a href="https://github.com/anamorales/explorador-peliculas" class="btn-outline" target="_blank" rel="noopener noreferrer">
-                                Ver en GitHub
-                            </a>
-                        </div>
-                    </article>
-
-                    <!-- Proyecto 3: Notas Interactivas de IA -->
-                    <article class="project-card">
-                        <div class="project-header">
-                            <h3 class="project-title">Notas Interactivas de IA</h3>
-                        </div>
-                        <p class="project-description">
-                            Sitio web educativo donde publico notas cortas sobre inteligencia artificial, 
-                            incluyendo ejemplos prácticos en Python y visualizaciones básicas. Un espacio 
-                            para compartir aprendizajes y explorar conceptos de IA de manera accesible.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">Python</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://ejemplo.com/ia-notes" class="btn-secondary" target="_blank" rel="noopener noreferrer">
-                                Ver demo
-                            </a>
-                            <a href="https://github.com/anamorales/ia-notes" class="btn-outline" target="_blank" rel="noopener noreferrer">
-                                Ver en GitHub
-                            </a>
-                        </div>
-                    </article>
+                <div class="projects-grid" id="projects-container">
+                    <!-- Las tarjetas de proyectos se generarán dinámicamente desde data/projects.json -->
                 </div>
             </div>
         </section>
@@ -354,6 +292,48 @@
             </p>
         </div>
     </footer>
+
+    <!-- Widget del Asistente Inteligente -->
+    <div class="assistant-widget">
+        <!-- Botón flotante para abrir/cerrar el asistente -->
+        <button id="assistant-toggle" class="assistant-toggle" aria-label="Abrir asistente del portafolio">
+            💬 Asistente
+        </button>
+
+        <!-- Panel del asistente (oculto por defecto) -->
+        <div id="assistant-panel" class="assistant-panel">
+            <!-- Header del asistente -->
+            <div class="assistant-header">
+                <h3 class="assistant-title">🤖 Asistente del Portafolio</h3>
+                <button id="assistant-close" class="assistant-close" aria-label="Cerrar asistente">
+                    ✕
+                </button>
+            </div>
+
+            <!-- Contenedor de mensajes -->
+            <div id="assistant-messages" class="assistant-messages">
+                <!-- Mensaje inicial del bot -->
+                <div class="assistant-message assistant-message--bot">
+                    <p>👋 ¡Hola! Soy el asistente virtual de Ana. Puedo responder preguntas sobre sus habilidades, proyectos, experiencia y disponibilidad. ¿En qué puedo ayudarte?</p>
+                </div>
+            </div>
+
+            <!-- Formulario para enviar mensajes -->
+            <form id="assistant-form" class="assistant-form">
+                <input 
+                    type="text" 
+                    id="assistant-input" 
+                    class="assistant-input" 
+                    placeholder="Escribe tu pregunta aquí..."
+                    required
+                    autocomplete="off"
+                >
+                <button type="submit" class="assistant-submit">
+                    Enviar
+                </button>
+            </form>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>

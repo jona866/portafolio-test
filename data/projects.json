@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Dashboard del Clima",
+    "description": "Aplicación web interactiva que muestra el clima actual y el pronóstico de 7 días utilizando la API de OpenWeatherMap. Incluye búsqueda por ciudad, geolocalización automática y visualización de datos con gráficos.",
+    "technologies": ["HTML5", "CSS3", "JavaScript", "API REST", "Chart.js"],
+    "demoUrl": "https://clima-dashboard-demo.vercel.app",
+    "repoUrl": "https://github.com/anamorales-dev/clima-dashboard"
+  },
+  {
+    "title": "Explorador de Películas",
+    "description": "Buscador de películas y series con información detallada como sinopsis, calificaciones, reparto y tráilers. Implementa búsqueda en tiempo real, filtros avanzados y sistema de favoritos con LocalStorage.",
+    "technologies": ["JavaScript", "HTML5", "CSS Grid", "TMDB API", "LocalStorage"],
+    "demoUrl": "https://movie-explorer-app.netlify.app",
+    "repoUrl": "https://github.com/anamorales-dev/movie-explorer"
+  },
+  {
+    "title": "Gestor de Tareas Inteligente",
+    "description": "Aplicación de gestión de tareas con categorías, prioridades y fechas de vencimiento. Incluye filtros dinámicos, notificaciones de tareas pendientes y modo oscuro/claro con persistencia de datos.",
+    "technologies": ["React", "JavaScript", "CSS Modules", "LocalStorage", "Context API"],
+    "demoUrl": "https://smart-todo-manager.vercel.app",
+    "repoUrl": "https://github.com/anamorales-dev/smart-todo-app"
+  },
+  {
+    "title": "Visualizador de Datos COVID-19",
+    "description": "Dashboard interactivo que visualiza estadísticas de COVID-19 por país con gráficos de líneas, barras y mapas. Permite comparar diferentes países y exportar datos en formato CSV.",
+    "technologies": ["Python", "JavaScript", "D3.js", "Flask API", "Pandas"],
+    "demoUrl": "https://covid-data-viz.herokuapp.com",
+    "repoUrl": "https://github.com/anamorales-dev/covid-dashboard"
+  },
+  {
+    "title": "Blog Personal con IA",
+    "description": "Plataforma de blog donde comparto artículos sobre desarrollo web e inteligencia artificial. Incluye sistema de comentarios, búsqueda por categorías y modo lectura optimizado para accesibilidad.",
+    "technologies": ["HTML5", "CSS3", "JavaScript", "Markdown", "GitHub Pages"],
+    "demoUrl": "https://anamorales-dev.github.io/tech-blog",
+    "repoUrl": "https://github.com/anamorales-dev/tech-blog"
+  }
+]
